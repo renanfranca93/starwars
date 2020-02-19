@@ -1,0 +1,71 @@
+.capa {
+    padding-top: 54px;
+    padding-bottom: 24px;
+  }
+  
+  .capa .capa-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+  }
+  
+  .capa .capa-subheading {
+    font-size: 1.25rem;
+  }
+  
+  .capa .capa-avatar {
+    width: 15rem;
+  }
+  
+  @media (min-width: 992px) {
+    .capa {
+      padding-top: 54;
+      padding-bottom: 24px;
+    }
+    .capa .capa-heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+    .capa .capa-subheading {
+      font-size: 1.5rem;
+    }
+  }
+
+ 
+
+  .card {
+    margin: 0 auto;   
+    float: left;   
+    margin-bottom: 10px;
+    display: block;
+    background-color: black;
+    border: white;
+    border: 1px solid;
+
+}
+
+
+
+.card-title, .card-text{
+    margin-left: 10px;;
+}
+
+.bg-estrela{
+    background-color: black;
+}
+
+.transp {
+    background-color: yellow;
+  }
+
+.transp:hover {
+    transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 0.1;
+  }
+
+  #localDoBotao{
+    padding: 5px 5px 5px 5px;
+    margin: 0 auto;
+
+  }
+
+
